@@ -168,7 +168,7 @@ namespace Delegates.PI
             //Action<double, double, Func<double, double, double>> ac3 = Calculations.DoTask;
             //ac3.Invoke(2.5,1.4, btd);
 
-            
+
             //List<int> nums = [-1, -2, 20, -13, -7];
             //Console.WriteLine(nums.Find(Calculations.IsGreaterThanZero));
 
@@ -176,6 +176,84 @@ namespace Delegates.PI
             //List<double> nums = [-1.3, -2.11, -2.9, -1.3, 0.7];
             //Predicate<double> pred = Calculations.IsGreaterThanZero;
             //Console.WriteLine(nums.Find(pred));
+            #endregion
+
+            #region Anonymous Methods
+
+            //Func<int, int, int> d = Calculations.Sum;
+            //d.Invoke(12, 23);
+            //d(12, 23);
+
+            //Func<int, int, int> d2 = delegate (int x, int y)
+            //{
+            //    return x + y;
+            //};
+            //d2.Invoke(23, 14);
+            //int result = d2(23, 14);
+            //Console.WriteLine(result);
+
+            //Func<int, bool, string> d3 = delegate (int a, bool flag)
+            //{
+            //    return (flag ? ++a : --a).ToString();
+            //};
+            //string result = d3(23, true);
+            //Console.WriteLine(result);
+
+
+            //Func<int, int, int> d4 = (x, y) => x + y;
+
+            //d4.Invoke(23, 14);
+            //int result = d4(23, 14);
+            //Console.WriteLine(result);
+
+            //Func<int, bool, string> d5 = (m, n) => (n ? ++m : --m).ToString();
+
+            //Action<string> d6 = delegate (string str)
+            //{
+            //    Console.WriteLine($"hello {str}");
+            //};
+            //d6("men3m");
+
+            //Action<string> d7 = str => Console.WriteLine($"wlcm back {str}");
+            //d7.Invoke("men3m");
+
+
+            //Func<int, int, string> d5 = (m, n) =>
+            //{
+            //    int x = m + n;
+            //    return x.ToString();
+            //};
+
+            #endregion
+
+            #region Implicit Type Local Variable
+
+            //int x = 5;
+            //string s = "men3m";
+
+            // dt variableName = expression
+
+            //var y = 5;
+            ////y = (long)23;
+            //var str = "saleh";
+            //var flag = false;
+
+
+
+            Dictionary<string, string> mobiles = new Dictionary<string, string>();
+            mobiles.Add("0123", "men3m");
+            mobiles.Add("0124", "saleh");
+            mobiles.Add("0125", "mohamed");
+            //foreach(KeyValuePair<string, string> kvp in mobiles)
+            //{
+            //    Console.WriteLine($"{kvp.Value} = {kvp.Key}");
+            //}
+            foreach(var kvp in mobiles)
+            {
+                Console.WriteLine($"{kvp.Value} = {kvp.Key}");
+            }
+
+
             #endregion
         }
     }
