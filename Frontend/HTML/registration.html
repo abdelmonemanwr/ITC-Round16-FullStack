@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <form method="get" action="./thanks.html">
+        <span>Name</span>
+        <input type="text" name="username" />
+
+        <br> <br>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" />
+
+        <br> <br>
+        <label for="pass">Password</label>
+        <input id="pass" type="password" name="password" />
+
+        <br> <br>
+        <label for="conpass">Confirm Password</label>
+        <input id="conpass" type="password" name="confirmpassword" />
+
+        <br> <br>
+        <label for="age">Age</label>
+        <input type="number" name="age" min="18" max="40" />
+
+        <br> <br>
+        <label for="courses">Courses</label>
+        <select name="courses" id="courses">
+            <option value="0">Choose Course ...</option>
+            <option value="1">Html</option>
+            <option value="2">Css</option>
+            <option selected value="3">JS</option>
+        </select>
+
+        <br> <br>
+
+        <textarea name="msg" id="msg" rows="5" col="10" placeholder="paste your thoughts"></textarea>
+
+        <br> <br>
+        <input type="submit" value="Register" />
+
+    </form>
+</body>
+
+</html>

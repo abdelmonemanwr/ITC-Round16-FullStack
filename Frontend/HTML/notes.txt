@@ -1,0 +1,36 @@
+Hyper Text Markup Lang
+<> 
+<img src="" alt=""/>
+<a href=""></a>
+<input type="" name="" value=""/>
+
+
+login(u, p)
+
+[]
+[]
+[]
+
+
+dom tree
+
+inline elements
+span, u, b, i, sub, sup, a, img, 
+
+block elements (100% width)
+<p></p>
+div
+h1:h6
+ul
+ol
+
+
+http://127.0.0.1:5500/thanks.html?name=men3m&email=men3m%40gmail.com&password=1123&confirmpassword=123
+
+
+http://127.0.0.1:5500/thanks.html?email=123%40tmail.com&password=123&confirmpassword=123
+
+http://127.0.0.1:5500/thanks.html?username=men3m&email=abdelmonemanwr7777%40gmail.com&password=234&confirmpassword=234
+
+
+http://127.0.0.1:5500/thanks.html?username=men3m&email=abdelmonemanwr7777%40gmail.com&password=234&confirmpassword=234&age=23&courses=2

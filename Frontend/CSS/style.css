@@ -1,0 +1,204 @@
+/* universal selectors */
+/* *{
+    margin: 0px;
+} */
+
+
+
+/* #container{
+    background-color: aquamarine;
+} */
+
+/* combination selector */
+/* li, p, span{
+    color: brown;
+    } */
+   
+/* .content, .listItem{
+       color: brown;
+} */
+
+
+/* Relational Selectors */
+/* div span{
+    background-color: aqua;
+}
+
+div > span{
+    background-color: brown;
+}
+
+span + p{
+    background-color: greenyellow;
+}
+
+span ~ p{
+    background-color: blueviolet;
+}
+
+#firstListItem{
+    color:green !important;
+}
+
+
+ #container .content span{
+    background-color: #fff;
+ }
+
+ #container .myclass #myspn{
+    background-color: #fff;
+ } */
+
+/* 
+  tag: 1
+  class: 10
+  id: 100
+ */
+
+
+/* p.content vs p .content */
+/* p{} */
+/* p.content{
+    background-color: green;
+}
+
+p .content{
+    background-color: green;
+} */
+
+/* psedu class */
+/* #products:hover{
+    background-color: #eee;
+} */
+
+/* [id]{
+    color:red;
+}
+
+[class]{
+    background-color: #eee;
+} */
+
+@font-face {
+    font-family: ChildHood;
+    src: url("./fonts/ChildHood.otf");
+}
+
+
+/* #container{
+    width: 10%vw;
+    background-color: brown;
+} */
+
+/* p.myclass{ */
+    /* font-family: 'ChildHood', 'Courier New', 'monospace'; */
+
+    /* font-size: 26pt; */
+    /* font-size: 16px; */
+    /* font-size: 1em; */
+    /* font-size: 1rem; */
+    /* font-size: 10%vw; */
+    /* font-size: 10%vh; */
+
+    /* font-weight: 400;
+    font-style: italic; */
+
+    /* font: oblique 500 1.5em ChildHood; */
+
+    /* color: rgb, red, hexa */
+
+    /* color: rgb(200, 20, 20) */
+    /* color: #ff09dd; */
+
+/* } */
+
+/* 
+  units
+
+  point,
+  pexel,
+  em,    1em = 16px
+  rem,   1rem = 100% root element
+  vw,
+  vh
+
+
+*/
+
+
+#container{
+    border: 3px solid red;
+    /* border: 3px dashed red; */
+    /* border: 3px dotted red; */
+
+    border-radius: 10px;
+    border-radius: 50%;
+
+    /* margin: 10px; */
+    margin: 10px 20px;
+    /* margin: 10px 20px 30px 40px; */
+
+    /* padding: 10px; */
+    padding: 10px 20px;
+    /* padding: 10px 20px 30px 40px; */
+
+    width: 400px;
+    height: 400px;
+
+    box-sizing: border-box;
+    background-color: aquamarine;
+
+    /* text-align: center;
+    text-align: right; */
+    background-image: url("./images/coffee-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: 25% 25%;
+}
+
+#div{
+    height: 500px;
+    border: 2px solid green;
+    background-color: beige;
+    position: relative;
+}
+
+#div div{
+    height: 150px;
+}
+
+.div2{
+    background-color: blueviolet;
+    /* position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 95%; */
+    /* position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90%; */
+    /* z-index: 200; */
+}
+
+.div3{
+    background-color: greenyellow;
+    /* position: relative;
+    top: 10px;
+    left: 10px; */
+}
+
+#itc{
+    width: 200px;
+    background-color: aqua;
+    /* display: block; */
+    /* display: inline-block; */
+}
+
+/* a{ */
+    /* margin: 20px; */
+    /* text-decoration: none;
+    text-decoration: line-through;
+    text-decoration: underline; */
+    /* color: blueviolet; */
+/* } */
