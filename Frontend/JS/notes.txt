@@ -1,0 +1,16 @@
+History JS
+Where Should we write js code
+variables
+data types
+arthemetic operators
+comparison operators
+logical operators
+short circuits
+conditions
+loops
+string apis
+how to take input from user
+alert
+confirm
+functions
+object
