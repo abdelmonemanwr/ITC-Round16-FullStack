@@ -1,0 +1,8 @@
+functions
+
+string
+array
+math
+
+object
+dom object

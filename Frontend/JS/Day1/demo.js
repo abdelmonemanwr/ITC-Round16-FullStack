@@ -197,13 +197,13 @@
 //     console.log(i);  
 // }
 
-var i=0;
-for(; ; ){
-    console.log("i="+i);
-    if(i>=5){
-        break;
-    }
-    if (i%2!=0)continue;
-    console.log(i);  
-    i++;
-}
+// var i=0;
+// for(; ; ){
+//     console.log("i="+i);
+//     if(i>=5){
+//         break;
+//     }
+//     if (i%2!=0)continue;
+//     console.log(i);  
+//     i++;
+// }
