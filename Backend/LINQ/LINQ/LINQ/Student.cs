@@ -13,16 +13,19 @@ namespace LINQ
         public string Fname { get; set; }
         public string Lname { get; set; }
         public int Age { get; set; }
+        public int DeptId { get; set; } 
+        public List<Course> Courses { get; set; }
         public Student()
         {
             
         }
-        public Student(int id, string fname, string lname, int age)
+        public Student(int id, string fname, string lname, int age, List<Course> courses)
         {
             Id = id;
             Fname = fname;
             Lname = lname;
             Age = age;
+            Courses = courses;
         }
 
         public override string ToString()
